@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="icon" type="image/png" href="Portfolio-PNG-File-118908249.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&family=Oswald:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/854eef3f0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Divyanshu's Portfolio</div>
+      <div class="right"></div>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">My Works</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars"onclick="openmenu"></i>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, I am <span class="blue">Divyanshu Raj</span>
+        <div>I am a passionate <span id="element"></span></div>
+      </div>
+      <div class="rightsection">
+        <img src="dev.png" alt="Developer Image">
+      </div>
+    </section>
+    <hr>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="mypic.jpg" alt="My Picture">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title"><u>About Me</u></h1>
+            <p>Hi, I am Divyanshu Raj, a passionate Python Full stack developer.</p>
+            <p>Although I am a fresher, I am confident in my ability to contribute to a company through
+              my relevant coursework or projects. I have developed skills in Python, Augmented
+              Reality, Flask framework and Data science. I am a hard worker who is committed to
+              learning and improving. I am eager to begin my career in field of Python developer and
+              make a positive impact on a team.
+              </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Python</span></li>
+                <li><span>Flask</span></li>
+                <li><span>SQL</span></li>
+                <li><span>HTML/CSS</span></li>
+                <li><span>Microsoft Excel</span></li>
+                <li><span>Data Analytics</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2025</span><br>BE-CSE<br>Chandigarh University</li>
+                <li><span>12th-2021<br>10th-2019</span><br>Kendriya Vidyalaya</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="certifications">
+              <ul>
+                <li>Introduction to Python Programming, <span>Coursera</span></li>
+                <li>Coding Bootcamp on C language, <span>Chandigarh University</span></li>
+                <li>Python for Data Science and AI Development, <span>Coursera</span></li>
+                <li>Bitcoin for Everybody, <span>Saylor</span></li>
+                <li>Everybody Excel for Business, <span>Coursera</span></li>
+                <li>Discrete Mathematics, <span>NPTEL</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="works">
+      <div class="container">
+        <h1 class="stitle"><u>My Works</u></h1>
+        <div class="works-list">
+          <div>
+            <i class="fa-solid fa-microphone"></i>
+            <h2>Voice Recognition System</h2>
+            <p>Technology used: Python</p>
+            <p>The Voice Recognition System project aims to develop an advanced technology capable of accurately recognizing and interpreting human speech. The system will analyze audio inputs and convert them into written text or execute specific commands.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <h2>Temperature Converter</h2>
+            <p>Technology Used: Arduino, Arduino IDE</p>
+            <p>The water level indicator project is designed to monitor and display the water level in a tank or reservoir. It utilizes sensors to detect the water level and provides real-time information through an electronic display or LED lights.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-comment-dots"></i>
+            <h2>Chatbot using Python</h2>
+            <p>Technology Used: Python, Flask, HTML/CSS</p>
+            <p>Healthcare Chatbot project aims to develop an intelligent chatbot using Python and Flask framework. This chatbot will provide personalized and interactive assistance to users seeking healthcare information and services.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>divyanshu9814@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>7986249390</p>
+            <div class="social-icon">
+              <a href="https://www.linkedin.com/in/divyanshu-raj-069a211aa/"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/divyanshu._.9814/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="Divyanshu Raj_Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full Stack Python Developer", "Python Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (var i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active-link");
+        }
+        for (var i = 0; i < tabcontents.length; i++) {
+          tabcontents[i].classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-150";
+      }
+    </script>
+  </main>
+</body>
+</html>
